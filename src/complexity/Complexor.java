@@ -81,8 +81,8 @@ public class Complexor {
 
 	public static void main(String[] args) throws IOException {
 		Complexor complexor = new Complexor();
-		int size = 5000;
-		int jumpSize = 100;
+		int size = 1000;
+		int jumpSize = 10000;
 		long seed = 9834754;
 		complexor.run(new MergeSort(),size, jumpSize, seed,"mergeSort.csv");
 

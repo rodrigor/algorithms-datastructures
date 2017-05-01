@@ -23,7 +23,7 @@ public class Util {
 		return singleton;
 	}
 	
-	public Util(){
+	private Util(){
 		try {
 			File file = new File(this.getClass().getResource("/").toURI());
 			this.projectBase =  new File(file.getParent());

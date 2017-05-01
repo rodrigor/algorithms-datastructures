@@ -1,0 +1,13 @@
+.DS_Store
+.classpath
+.project
+/bin
+*.class
+
+tests/sorting/Icon
+
+*.csv
+
+src/complexity/Icon
+
+src/sorting/Icon

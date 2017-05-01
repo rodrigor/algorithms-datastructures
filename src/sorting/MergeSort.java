@@ -88,7 +88,7 @@ public class MergeSort implements SortingAlgorithm {
 	 */
 	@Override
 	public String getName() {
-		return "Merge Sort - Complexidade conceitual: O(nlgn)";
+		return "Merge Sort - O(nlgn)";
 	}
 
 }

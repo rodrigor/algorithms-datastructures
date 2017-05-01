@@ -45,7 +45,7 @@ public class InsertionSort implements SortingAlgorithm{
 	 */
 	@Override
 	public String getName() {
-		return "Insertion Sort - Complexidade conceitual: O(n2)";
+		return "Insertion Sort - O(n2)";
 
 	}
 
